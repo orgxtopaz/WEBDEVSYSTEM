@@ -1,8 +1,6 @@
 <?php
 session_start(); //setting session for username
-if (!isset($_SESSION['username'])) { //if the variable username is being set,
-  header('location:index.php'); //then it will set the location to index.php
-}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
