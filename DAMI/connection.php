@@ -236,7 +236,7 @@ if (isset($_POST['login'])) {
 
    if($total == 1){
            
-  
+       header('Location: userpage.php');
        $_SESSION['username'] = $loginusername;
       
 
